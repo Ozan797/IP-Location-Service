@@ -115,6 +115,4 @@ app.get("/history", (req, res) => {
   );
 });
 
-app.listen(PORT, () => {
-  console.log(`Geo-IP Location Service running on port ${PORT}`);
-});
+module.exports = app;
